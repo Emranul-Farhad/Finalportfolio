@@ -1,10 +1,31 @@
 import React from 'react';
-
 import { BsFacebook, BsTelephoneFill, BsLinkedin, BsGithub } from 'react-icons/bs'
 import { ImLocation2 } from 'react-icons/im'
 import { MdEmail } from 'react-icons/md'
+// import emailjs from '@emailjs/browser';
+import emailjs from "emailjs-com";
+
+
+
 
 const Homecontact = () => {
+
+   
+    function sendEmail(e) {
+        e.preventDefault();
+
+        emailjs.sendForm('service_29gj1ew', 'template_bh5zs9i', e.target, 'oDgZgX2CecmgJ6DSM')
+        .then((result) => {
+        console.log(result.text);
+        }, (error) => {
+        console.log(error.text);
+        });
+        e.target.reset()
+        }
+       
+        
+
+
     return (
         <div className=''>
             <div>
@@ -53,11 +74,11 @@ const Homecontact = () => {
                 <div>
                     <div>
                         <div>
-                            <form action="">
+                            <form onSubmit={sendEmail} >
                                 <div className='flex mx-3 py-4 flex-col lg:flex-row'>
-                                    <input type="text" placeholder="Type here" class="input input-bordered input-primary w-full max-w-xs lg:mx-2 mb-3 lg:mb-0" />
-                                    <input type="text" placeholder="Type here" class="input input-bordered input-primary w-full max-w-xs  mb-3 lg:mb-0 " />
-                                    <textarea className='input input-bordered input-primary w-full max-w-xs lg:mx-2 mb-3 lg:mb-0' name="" id="" placeholder='type your message' cols="30" rows="10"></textarea>
+                                    <input type="text" name='name' placeholder="input your name" class="input input-bordered input-primary w-full max-w-xs lg:mx-2 mb-3 lg:mb-0" required />
+                                    <input type="text" placeholder="Type your email" name='email' class="input input-bordered input-primary w-full max-w-xs  mb-3 lg:mb-0 " required />
+                                    <textarea  className='input input-bordered input-primary w-full max-w-xs lg:mx-2 mb-3 lg:mb-0' name="message" id="" placeholder='type your message' cols="30" rows="10" required></textarea>
                                     {/* <button class="btn btn-info">Info</button> */}
                                     <input className='bg-[#07D3D3] btn btn-info ' type="submit" />
                                 </div>                
