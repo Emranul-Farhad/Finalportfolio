@@ -1,6 +1,7 @@
 import React from 'react';
 import Homelanguages from '../Components/Homecomponents/Homelanguages';
 import Homemyself from '../Components/Homecomponents/Homemyself';
+import Homeprojects from '../Components/Homecomponents/Homeprojects';
 
 
 
@@ -29,7 +30,10 @@ const Home = () => {
         <div className='mt-[120px]'>
             <Homelanguages></Homelanguages>
         </div>
-
+        {/* my projects */}
+        <div>
+            <Homeprojects></Homeprojects>
+        </div>
 
        </div>
     );
