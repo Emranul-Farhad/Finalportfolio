@@ -1,4 +1,5 @@
 import React from 'react';
+import Homecontact from '../Components/Homecomponents/Homecontact';
 import Homelanguages from '../Components/Homecomponents/Homelanguages';
 import Homemyself from '../Components/Homecomponents/Homemyself';
 import Homeprojects from '../Components/Homecomponents/Homeprojects';
@@ -31,10 +32,13 @@ const Home = () => {
             <Homelanguages></Homelanguages>
         </div>
         {/* my projects */}
-        <div>
+        <div className='mt-[120px]'>
             <Homeprojects></Homeprojects>
         </div>
-
+        {/* ?contact */}
+        <div className='mt-[120px]'>
+            <Homecontact></Homecontact>
+        </div>
        </div>
     );
 };
