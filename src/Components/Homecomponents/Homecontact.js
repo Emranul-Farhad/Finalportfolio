@@ -4,6 +4,7 @@ import { ImLocation2 } from 'react-icons/im'
 import { MdEmail } from 'react-icons/md'
 // import emailjs from '@emailjs/browser';
 import emailjs from "emailjs-com";
+import Swal from 'sweetalert2';
 
 
 
@@ -16,9 +17,26 @@ const Homecontact = () => {
 
         emailjs.sendForm('service_29gj1ew', 'template_bh5zs9i', e.target, 'oDgZgX2CecmgJ6DSM')
         .then((result) => {
-        console.log(result.text);
-        }, (error) => {
+        // console.log(result.text);
+        Swal.fire({
+            position: 'top-end',
+            icon: 'success',
+            title: 'we will message you soon !',
+            showConfirmButton: false,
+            timer: 1500
+          })
+        },
+         (error) => {
         console.log(error.text);
+        Swal.fire({
+            title: ' something happend try again ',
+            showClass: {
+              popup: 'animate__animated animate__fadeInDown'
+            },
+            hideClass: {
+              popup: 'animate__animated animate__fadeOutUp'
+            }
+          })
         });
         e.target.reset()
         }
