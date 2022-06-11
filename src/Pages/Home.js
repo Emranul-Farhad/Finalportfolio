@@ -9,7 +9,7 @@ import resume from '../Images/MERN Stack Developer.pdf'
 const Home = () => {
     return (
        <div className='lg:mx-20'>
-         <div className=''>
+         <div className='mx-auto'>
               <div className='flex flex-col lg:flex-row items-center'>
             <div className='basis-2/4'>  
                 <img  alt="Coder GIF" src="https://miro.medium.com/max/1360/0*7Q3yvSIv_t0ioJ-Z.gif" />

@@ -9,9 +9,9 @@ const Nav = () => {
  
 
     return (
-        <div>
-              <div>
-            <div class="bg-gray-200 static uppercase font-semibold rounded-lg flex md:flex-col md:ml-1 shadow-lg border-gray-600 justify-around md:h-screen md:w-16 fixed w-screen bottom-0">
+        <div className='z-50' >
+              <div className='z-50'>
+            <div class="bg-gray-200 static uppercase font-semibold rounded-lg flex md:flex-col md:ml-1 shadow-lg border-gray-600 justify-around md:h-screen md:w-16 fixed w-screen bottom-0 z-[100]">
 
                 <NavLink to='/' >
                     <div class="md:p-5 p-3 delay-75 duration-500 ease-in-out transform hover:scale-125 hover:-rotate-12">
