@@ -51,7 +51,7 @@ const Perfumemodal = () => {
             <div className='wrapper mt-5'>
                 <div class="icon github">
                     <div class="tooltip">Live</div>
-                    <a href="https://doctorsportal-57dc8.web.app/" target='blank' > <span><i class="fab fa-github" >
+                    <a href="https://doctor-porta-74bcf.firebaseapp.com/" target='blank' > <span><i class="fab fa-github" >
                         <BsArrowUpRightCircleFill></BsArrowUpRightCircleFill>
                     </i></span></a>
                 </div>
@@ -59,7 +59,7 @@ const Perfumemodal = () => {
             <div className='wrapper mt-5'>
                 <div class="icon github">
                     <div class="tooltip">Client</div>
-                    <a href="https://github.com/Emranul-Farhad/Doctor-Portal" target='blank' > <span><i class="fab fa-github" >
+                    <a href="https://github.com/Emranul-Farhad/Perfume-site" target='blank' > <span><i class="fab fa-github" >
                         <AiFillGithub></AiFillGithub>
                     </i></span></a>
                 </div>
@@ -67,7 +67,7 @@ const Perfumemodal = () => {
             <div className='wrapper mt-5'>
                 <div class="icon github">
                     <div class="tooltip">Server</div>
-                    <a href="https://github.com/Emranul-Farhad/Doctor-portal-server" target='blank'> <span><i class="fab fa-github">
+                    <a href="https://github.com/Emranul-Farhad/perfume-server" target='blank'> <span><i class="fab fa-github">
                         <AiFillGithub></AiFillGithub>
                     </i></span></a>
                 </div>
