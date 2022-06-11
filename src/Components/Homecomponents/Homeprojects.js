@@ -12,8 +12,11 @@ const Homeprojects = () => {
 
    //  navigate handel
    const navigate = useNavigate()
+   const instrtutory = useNavigate()
+   const apar = useNavigate()
+   const perfume = useNavigate()
 
-
+   
     return (
         <div>
              <div className='container '>
