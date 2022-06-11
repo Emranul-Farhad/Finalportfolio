@@ -5,6 +5,9 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './Pages/Home'
 import Footer from './Shared/Footer';
 import { useEffect, useRef, useState } from 'react';
+import Doctormodal from './Projectsmodal/Doctormodal';
+import Aparmodal from './Projectsmodal/Aparmodal';
+
 
 
 
@@ -173,11 +176,14 @@ function App() {
     <div className="App">
       <Cursor></Cursor>
       <Nav></Nav>
-      <Routes>
-        <Route path='/' element={<Home></Home>} ></Route>
-         
 
+      <Routes>
+        <Route path='/' element={<Home></Home>} ></Route>          
       </Routes>
+
+
+     <Doctormodal></Doctormodal>
+     <Aparmodal></Aparmodal>
       <Footer></Footer>
     </div>
   );

@@ -4,9 +4,16 @@ import one from '../../Images/one.png'
 import two from '../../Images/two.png'
 import three from '../../Images/three.png'
 import four from '../../Images/four.png'
-
+import {BsFillArrowUpRightCircleFill} from 'react-icons/bs'
+import { useNavigate } from 'react-router-dom';
 
 const Homeprojects = () => {
+
+
+   //  navigate handel
+   const navigate = useNavigate()
+
+
     return (
         <div>
              <div className='container '>
@@ -24,11 +31,15 @@ const Homeprojects = () => {
                 </div>
                 <div className='shadow-2xl bg-[#FbFbFb] mr-[-5px] projectdetials rounded-lg'>
                     <div className='detilasperagraph w-[92%]'>
-                        <a className='text-left' href='https://doctorsportal-57dc8.web.app/'>
+                       <div className='flex'>
+                       <a className='text-left' href='https://doctorsportal-57dc8.web.app/'>
                             <h6 className='mx-10 mt-4 text-2xl text-[#07D3D3] font-bold'> Human Repair </h6>
-                        </a>
+                        </a>                      
+                        <label for="doctormodal" className="mt-[30px] text-2xl modal-button text-[#07D3D3]"> <BsFillArrowUpRightCircleFill></BsFillArrowUpRightCircleFill> </label>
+                       </div>
+                       {/* <button  className='mt-4 text-2xl text-[#07D3D3]'> <BsFillArrowUpRightCircleFill></BsFillArrowUpRightCircleFill> </button> */}
                         <h6 className='p-10 text-left tracking-widest'>
-                            <span className='font-bold'>Human Repair</span> a Doctor Appoinments booking related a MERN Stack Projects . A user can boook available any doctor's Appoinments but per user per day can bok only one Appoinments in  per categorey. As well Dashboard features Admin user base features Authentication authorization systems
+                            <span className='font-bold'>Human Repair</span> a Doctor Appoinments booking related a MERN Stack Projects . A user can boook available any doctor's Appoinments but per user per day can bok only one Appoinments in  per categorey. As well Dashboard features Admin user base features Authentication authorization systems                          
                             .</h6>
                         <div className='flex text-end p-10'>
                             <div className=''>
