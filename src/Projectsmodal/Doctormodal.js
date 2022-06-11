@@ -8,7 +8,7 @@ import one from '../Images/doctorOne.png'
 import two from '../Images/doctorTwo.png'
 import three from '../Images/DoctorThree.png'
 import { AiFillGithub } from 'react-icons/ai'
-
+import { BsArrowUpRightCircleFill } from 'react-icons/bs'
 
 
 
@@ -50,19 +50,30 @@ const Doctormodal = () => {
                         </SwiperSlide>
                     </Swiper>
                     <h3 class="font-bold text-lg"> Doctor Portal </h3>
-                    <div className='flex items-center justify-center mt-3'>
-                        <div className='flex items-center'>
-                            <p class="py-4 font-bold text-1xl uppercase">Client site link  </p>
-                            <a target='blank' href='https://github.com/Emranul-Farhad/Doctor-Portal' className='hover:bg-[#07D3D3] rounded-lg mx-4 text-3xl font-bold text-[#07D3D3]'>
-                                <button><AiFillGithub></AiFillGithub></button>
-                            </a>
+                    <div className='flex items-center justify-center '>
+
+                        <div className='wrapper mt-5'>
+                            <div class="icon github">
+                                <div class="tooltip">Live</div>
+                                <a href="https://doctorsportal-57dc8.web.app/" target='blank' > <span><i class="fab fa-github" >
+                                    <BsArrowUpRightCircleFill></BsArrowUpRightCircleFill>
+                                </i></span></a>
+                            </div>
                         </div>
-                        <div className='wrapper'>
+                        <div className='wrapper mt-5'>
                             <div class="icon github">
                                 <div class="tooltip">Client</div>
-                                <a href="https://github.com/programming-hero-web-course2/phone-hunter-Emranul-Farhad"> <span><i class="fab fa-github">
+                                <a href="https://github.com/Emranul-Farhad/Doctor-Portal" target='blank' > <span><i class="fab fa-github" >
                                     <AiFillGithub></AiFillGithub>
-                                    </i></span></a>
+                                </i></span></a>
+                            </div>
+                        </div>
+                        <div className='wrapper mt-5'>
+                            <div class="icon github">
+                                <div class="tooltip">Server</div>
+                                <a href="https://github.com/Emranul-Farhad/Doctor-portal-server" target='blank'> <span><i class="fab fa-github">
+                                    <AiFillGithub></AiFillGithub>
+                                </i></span></a>
                             </div>
                         </div>
                     </div>
