@@ -9,6 +9,7 @@ import Doctormodal from './Projectsmodal/Doctormodal';
 import Aparmodal from './Projectsmodal/Aparmodal';
 import Instructorymodal from './Projectsmodal/Instructorymodal';
 import Perfumemodal from './Projectsmodal/Perfumemodal';
+import Blog from './Pages/Blog';
 
 
 
@@ -180,7 +181,8 @@ function App() {
       <Nav></Nav>
 
       <Routes>
-        <Route path='/' element={<Home></Home>} ></Route>          
+        <Route path='/' element={<Home></Home>} ></Route> 
+        <Route path='/blog' element={<Blog></Blog>} ></Route>         
       </Routes>
 
 
@@ -188,7 +190,7 @@ function App() {
      <Aparmodal></Aparmodal>
      <Instructorymodal></Instructorymodal>
      <Perfumemodal></Perfumemodal>
-      <Footer></Footer>
+      
     </div>
   );
 }

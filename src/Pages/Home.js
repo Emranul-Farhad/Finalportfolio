@@ -4,6 +4,7 @@ import Homelanguages from '../Components/Homecomponents/Homelanguages';
 import Homemyself from '../Components/Homecomponents/Homemyself';
 import Homeprojects from '../Components/Homecomponents/Homeprojects';
 import resume from '../Images/MERN Stack Developer.pdf'
+import Footer from '../Shared/Footer';
 
 
 const Home = () => {
@@ -38,6 +39,10 @@ const Home = () => {
         {/* ?contact */}
         <div className='mt-[120px]'>
             <Homecontact></Homecontact>
+        </div>
+
+        <div className='mt-5'>
+        <Footer></Footer>
         </div>
        </div>
     );
