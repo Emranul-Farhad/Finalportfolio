@@ -105,7 +105,7 @@ const Homeprojects = () => {
                            <a className='text-left' href='https://instructory-f49db.firebaseapp.com/' target='blank'>
                                 <h6 className='mx-10 mt-4 text-2xl text-[#07D3D3] font-bold'> Instructory</h6>
                             </a>
-                            
+
                             <label for="instructorymodal" className="mt-[30px] text-2xl modal-button text-[#07D3D3]"> <BsFillArrowUpRightCircleFill></BsFillArrowUpRightCircleFill> </label>
 
                            </div>
@@ -247,9 +247,12 @@ const Homeprojects = () => {
                     </div>
                     <div className='shadow-2xl bg-[#FbFbFb] mr-[-5px] projectdetialssecond rounded-lg'>
                         <div className='detilasperagraph w-[92%]'>
+                            <div className='flex' >
                             <a className='text-left' href='https://doctor-porta-74bcf.firebaseapp.com/' target='blank' >
                                 <h6 className='mx-10 mt-4 text-2xl font-bold text-[#07D3D3]'> Fashion's Time</h6>
                             </a>
+                            <label for="perfumemodal" className="mt-[30px] text-2xl modal-button text-[#07D3D3]"> <BsFillArrowUpRightCircleFill></BsFillArrowUpRightCircleFill> </label>
+                            </div>
                             <h6 className='p-10 text-left tracking-widest'>
                                 <span>Fashion's Time </span> 
                                  A simple stock management Full Stack Authentication &
