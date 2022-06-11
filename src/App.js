@@ -7,6 +7,8 @@ import Footer from './Shared/Footer';
 import { useEffect, useRef, useState } from 'react';
 import Doctormodal from './Projectsmodal/Doctormodal';
 import Aparmodal from './Projectsmodal/Aparmodal';
+import Instructorymodal from './Projectsmodal/Instructorymodal';
+import Perfumemodal from './Projectsmodal/Perfumemodal';
 
 
 
@@ -184,6 +186,8 @@ function App() {
 
      <Doctormodal></Doctormodal>
      <Aparmodal></Aparmodal>
+     <Instructorymodal></Instructorymodal>
+     <Perfumemodal></Perfumemodal>
       <Footer></Footer>
     </div>
   );

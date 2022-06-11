@@ -35,9 +35,12 @@ const Homeprojects = () => {
                 <div className='shadow-2xl bg-[#FbFbFb] mr-[-5px] projectdetials rounded-lg'>
                     <div className='detilasperagraph w-[92%]'>
                        <div className='flex'>
-                       <a className='text-left' href='https://doctorsportal-57dc8.web.app/'>
+                      <div>
+                      <a className='text-left' href='https://doctorsportal-57dc8.web.app/'>
                             <h6 className='mx-10 mt-4 text-2xl text-[#07D3D3] font-bold'> Human Repair </h6>
-                        </a>                      
+                        </a>
+                        
+                        </div>                      
                         <label for="doctormodal" className="mt-[30px] text-2xl modal-button text-[#07D3D3]"> <BsFillArrowUpRightCircleFill></BsFillArrowUpRightCircleFill> </label>
                        </div>
                        {/* <button  className='mt-4 text-2xl text-[#07D3D3]'> <BsFillArrowUpRightCircleFill></BsFillArrowUpRightCircleFill> </button> */}
@@ -96,10 +99,16 @@ const Homeprojects = () => {
                     lg:w-[800px]' src={two} alt="" />
                     </div>
                     <div className='shadow-2xl bg-[#FbFbFb] mr-[-5px] projectdetialssecond rounded-lg'>
+
                         <div className='detilasperagraph w-[92%]'>
-                            <a className='text-left' href='https://instructory-f49db.firebaseapp.com/' target='blank'>
+                           <div className='flex'>
+                           <a className='text-left' href='https://instructory-f49db.firebaseapp.com/' target='blank'>
                                 <h6 className='mx-10 mt-4 text-2xl text-[#07D3D3] font-bold'> Instructory</h6>
                             </a>
+                            
+                            <label for="instructorymodal" className="mt-[30px] text-2xl modal-button text-[#07D3D3]"> <BsFillArrowUpRightCircleFill></BsFillArrowUpRightCircleFill> </label>
+
+                           </div>
                             <h6 className='p-10 text-left tracking-widest'>
                                 <span className='font-bold'> Instructory  </span> is a simple e-learning accademy
                                 A student can buy course. And can give courses review. All
@@ -166,9 +175,12 @@ const Homeprojects = () => {
                     </div>
                     <div className='shadow-2xl bg-[#FbFbFb] mr-[-5px] projectdetials rounded-lg'>
                         <div className='detilasperagraph w-[92%]'>
-                            <a className='text-left' href='https://apar-motors.firebaseapp.com/' target='blank' >
+                           <div className='flex'>
+                           <a className='text-left' href='https://apar-motors.firebaseapp.com/' target='blank' >
                                 <h6 className='mx-10 mt-4 text-2xl font-bold text-[#07D3D3]'> Apar Motors </h6>
                             </a>
+                            <label for="aparmodal" className="mt-[30px] text-2xl modal-button text-[#07D3D3]"> <BsFillArrowUpRightCircleFill></BsFillArrowUpRightCircleFill> </label>
+                           </div>
                             <h6 className='p-10 text-left tracking-widest'>
                                 <span className='font-bold '> Apar Motors </span>
                                 Full stack manufacture website with Authentication &
