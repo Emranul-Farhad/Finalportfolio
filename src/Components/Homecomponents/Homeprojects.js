@@ -254,7 +254,7 @@ const Homeprojects = () => {
                             <label for="perfumemodal" className="mt-[30px] text-2xl modal-button text-[#07D3D3]"> <BsFillArrowUpRightCircleFill></BsFillArrowUpRightCircleFill> </label>
                             </div>
                             <h6 className='p-10 text-left tracking-widest'>
-                                <span>Fashion's Time </span> 
+                                <span class="font-bold" >Fashion's Time </span> 
                                  A simple stock management Full Stack Authentication &
                                 Authorization base web site with                
                                  protected page. 
