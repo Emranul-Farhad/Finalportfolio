@@ -70,19 +70,19 @@ const Homecontact = () => {
                         </div>
                         <div className='flex items-center mt-3'>
                             <p className=' text-[#07D3D3] font-bold text-2xl mr-2'> <BsLinkedin></BsLinkedin>  </p>
-                            <a href="https://www.linkedin.com/in/yeasmin-akter-704411206/">
+                            <a className='hover:text-[#07D3D3]' href="https://www.linkedin.com/in/yeasmin-akter-704411206/">
                                 <h6 className=' font-bold'> Emranul Farhad  </h6>
                             </a>
                         </div>
                         <div className='flex items-center mt-3'>
                             <p className=' text-[#07D3D3] font-bold text-2xl mr-2'> <BsFacebook></BsFacebook> </p>
-                            <a href="https://www.facebook.com/emranul.farhad">
+                            <a className='hover:text-[#07D3D3]' href="https://www.facebook.com/emranul.farhad">
                                 <h6 className=' font-bold'> Emranul Farhad  </h6>
                             </a>
                         </div>
                         <div className='flex items-center mt-3'>
                             <p className=' text-[#07D3D3] font-bold text-2xl mr-2'> <BsGithub></BsGithub> </p>
-                            <a href="https://github.com/Emranul-Farhad">
+                            <a className='hover:text-[#07D3D3]' href="https://github.com/Emranul-Farhad">
                                 <h6 className=' font-bold'> Emranul Farhad  </h6>
                             </a>
                         </div>

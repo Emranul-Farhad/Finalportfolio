@@ -45,7 +45,7 @@ const Perfumemodal = () => {
                 <img src={three} />
             </SwiperSlide>
         </Swiper>
-        <h3 class="font-bold text-lg"> Doctor Portal </h3>
+        <h3 class="font-bold text-lg"> Perfume Site </h3>
         <div className='flex items-center justify-center '>
 
             <div className='wrapper mt-5'>

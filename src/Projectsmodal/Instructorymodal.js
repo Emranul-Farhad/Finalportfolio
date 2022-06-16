@@ -1,9 +1,9 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Pagination } from "swiper";
-import one from '../Images/doctorOne.png'
-import two from '../Images/doctorTwo.png'
-import three from '../Images/DoctorThree.png'
+import one from '../Images/instaone.png'
+import two from '../Images/instatwo.png'
+import three from '../Images/instathree.png'
 import { AiFillGithub } from 'react-icons/ai'
 import { BsArrowUpRightCircleFill } from 'react-icons/bs'
 
@@ -43,7 +43,7 @@ const Instructorymodal = () => {
                 <img src={three} />
             </SwiperSlide>
         </Swiper>
-        <h3 class="font-bold text-lg"> Doctor Portal </h3>
+        <h3 class="font-bold text-lg"> Instructory</h3>
         <div className='flex items-center justify-center '>
 
             <div className='wrapper mt-5'>
